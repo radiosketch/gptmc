@@ -1,10 +1,10 @@
 {
   "schemaVersion": 1,
-  "id": "modid",
+  "id": "gptmc",
   "version": "${version}",
 
-  "name": "Example Mod",
-  "description": "This is an example description! Tell everyone what your mod is about!",
+  "name": "GPT-MC",
+  "description": "Using GPT-J to enhance mob intelligence!",
   "authors": [
     "Me!"
   ],
