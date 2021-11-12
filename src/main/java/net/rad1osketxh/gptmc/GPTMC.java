@@ -11,12 +11,16 @@ import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 
 public class GPTMC implements ModInitializer {
-    //    What will GPTMC do?
+    /**
+     * GPTMC: Give mobs the power to speak, think, and act independently!
+     */
 
-    public static final Logger LOGGER = LogManager.getLogger("gptmc");
+    public static final Logger LOGGER = LogManager.getLogger("gptmc"); // Logger for in-game events
 
     // Initialize Items
-    public static final Item BRAIN = new Brain(new FabricItemSettings().group(ItemGroup.MISC));
+    public static final Item BRAIN = new Brain(new FabricItemSettings().group(ItemGroup.MISC)); // AI Brain item, flag
+
+    // Initialize Mobs
 
     @Override
     public void onInitialize() {
