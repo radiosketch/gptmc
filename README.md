@@ -31,7 +31,7 @@ the process of wrapping my head, as well as my code, around the basics.
 
 See the resources section at the bottom
 
-####Goals for development.
+#### Goals for development.
 1. Tokenization of in-game events
     - TODO: This should be my first section to design tests for
 2. Communication between MC Engine and GPT-J
