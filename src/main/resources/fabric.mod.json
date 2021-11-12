@@ -6,11 +6,12 @@
   "name": "GPT-MC",
   "description": "Using GPT-J to enhance mob intelligence!",
   "authors": [
-    "Me!"
+    "rad1osketxh"
   ],
   "contact": {
-    "homepage": "https://fabricmc.net/",
-    "sources": "https://github.com/radiosketch/gptmc"
+    "homepage": "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
+    "sources": "https://github.com/radiosketch/gptmc",
+    "issues": "https://github.com/radiosketch/gptmc/issues"
   },
 
   "license": "CC0-1.0",
@@ -19,7 +20,7 @@
   "environment": "*",
   "entrypoints": {
     "main": [
-      "net.rad1osketxh.gptmc.Main"
+      "net.rad1osketxh.gptmc.GPTMC"
     ]
   },
   "mixins": [
@@ -29,7 +30,7 @@
   "depends": {
     "fabricloader": ">=0.11.3",
     "fabric": "*",
-    "minecraft": "1.17.x",
+    "minecraft": "1.16.5",
     "java": ">=16"
   },
   "suggests": {

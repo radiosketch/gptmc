@@ -1,12 +1,12 @@
 {
   "required": true,
   "minVersion": "0.8",
-  "package": "net.rad1osketxh.gptmc",
+  "package": "net.rad1osketxh.gptmc.client",
   "compatibilityLevel": "JAVA_16",
   "mixins": [
   ],
   "client": [
-    "ExampleMixin"
+    "gptmcClient"
   ],
   "injectors": {
     "defaultRequire": 1
