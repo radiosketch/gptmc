@@ -1,7 +1,5 @@
 # PoC: GPT in Minecraft
-This project is designed to be a **proof of concept** for incorporating
-GPT-3 into a Minecraft Mod. In this example, I plan to use GPT-J as an
-open source alternative with the benefits (and drawbacks) of increased performance.
+My goal with this project is to demonstrate the feasibility of incorporating GPT-3, or a GPT-Alternative into a Minecraft Mod. In this example, I plan to use GPT-J as an open source alternative with improved performance.
 
 # Philosophy of Design, by rad1osketxh
 I'm not sure how else to start planning what I want, so this section is dedicated to
@@ -47,6 +45,7 @@ See the resources section at the bottom
 
 ## Development
 ![WIP Component View](https://cdn.discordapp.com/attachments/562801886634311680/908777047835414679/gptmcDataFlow.png)
+
 #### Tasks TODO:
 * Collect game events accurately into JSON packets
   * A: This seems to be the fastest method of collecting data from MC, with minimal tampering.
@@ -56,12 +55,15 @@ See the resources section at the bottom
 * Receive a response and transform to agent response.
 
 ## Works Cited: By Category
-### Minecraft Modding: Communication with External Programs
+### MC Modding: Communication with External Programs
 TODO: Add related documentation
-### GPT-J: Training to become an NPC in Minecraft
-#### Papers:
+### MC Modding: Custom Entity AI
+[Jabelar's Minecraft Forge Modding Tutorials](http://jabelarminecraft.blogspot.com/p/minecraft-forge-1721710-custom-entity-ai.html)
+### Transformers: Training to become an NPC in Minecraft
+[Announcing AI21 Studio and Jurassic-1 Language Models](https://www.ai21.com/blog/announcing-ai21-studio-and-jurassic-1)
+#### Transformers: Papers
 * [Natural Language Supervision](https://cdn.openai.com/papers/Learning_Transferable_Visual_Models_From_Natural_Language_Supervision.pdf), related to our training technique.
-
+* [Jurassic-1 Technical Details](https://uploads-ssl.webflow.com/60fd4503684b466578c0d307/61138924626a6981ee09caf6_jurassic_tech_paper.pdf)
 [GPT-J GitHub Repo](https://github.com/kingoflolz/mesh-transformer-jax/#gpt-j-6b)
 #### Development Pipeline:
 Cloud Solutions:
