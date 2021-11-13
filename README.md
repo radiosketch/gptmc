@@ -67,7 +67,7 @@ TODO: Add related documentation
 #### Development Solutions:
 * [(Free Trial) Google TPU Research Cloud]()
 * [(Hourly Cost) AIx Text Generation]()
-* [CAT\<nip\> Google Doc](https://docs.google.com/document/d/1SCi91qXdAKvHEEmFqTQnEpn1JX02fA6vRd7v2SCdmbs/edit)
+* [CAT\<nip\> (NSFW, Thanks AI Dungeon) Google Doc](https://docs.google.com/document/d/1SCi91qXdAKvHEEmFqTQnEpn1JX02fA6vRd7v2SCdmbs/edit)
     > "A structured, highly accurate, and agile format for use with [AI Dungeon's](https://play.aidungeon.io/main/home) Griffin and Dragon models. CAT<nip> format makes use of optimized tokenization (documentation coming soon courtesy of RogueSphinx)"  
       "It is doubtful that any format will ever achieve 100% accuracy with GPT-3. However, CAT<nip> can come close to 99.99% accuracy for many things (documentation coming soon)."  
       -- [Curious Nekomimi](https://www.reddit.com/user/curious_nekomimi/comments/kqu6zl/catnip_format_character_generator_nsfwsfw_version/?utm_source=share&utm_medium=web2x&context=3)
