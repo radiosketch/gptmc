@@ -64,7 +64,7 @@ TODO: Add related documentation
 * [Natural Language Supervision](https://cdn.openai.com/papers/Learning_Transferable_Visual_Models_From_Natural_Language_Supervision.pdf)
 * [Jurassic-1 Technical Details](https://uploads-ssl.webflow.com/60fd4503684b466578c0d307/61138924626a6981ee09caf6_jurassic_tech_paper.pdf)  
 * [GPT-J GitHub Repo](https://github.com/kingoflolz/mesh-transformer-jax/#gpt-j-6b)  
-#### Development Solutions:
+#### Development Solutions (Python & Neural Networks):
 * [(Free Trial) Google TPU Research Cloud]()
 * [(Hourly Cost) AIx Text Generation]()
 * [CAT\<nip\> (NSFW, Thanks AI Dungeon) Google Doc](https://docs.google.com/document/d/1SCi91qXdAKvHEEmFqTQnEpn1JX02fA6vRd7v2SCdmbs/edit)
@@ -72,3 +72,10 @@ TODO: Add related documentation
       "It is doubtful that any format will ever achieve 100% accuracy with GPT-3. However, CAT<nip> can come close to 99.99% accuracy for many things (documentation coming soon)."  
       -- [Curious Nekomimi](https://www.reddit.com/user/curious_nekomimi/comments/kqu6zl/catnip_format_character_generator_nsfwsfw_version/?utm_source=share&utm_medium=web2x&context=3)
 * [Environment Setup With Google Cloud TPU](https://github.com/kingoflolz/mesh-transformer-jax/blob/master/howto_finetune.md)
+* [Command Prediction](https://pdf.sciencedirectassets.com/271427/1-s2.0-S0926580521X00118/1-s2.0-S0926580521004775/main.pdf?X-Amz-Security-Token=IQoJb3JpZ2luX2VjEPz%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEaCXVzLWVhc3QtMSJGMEQCICEUaqRZe5y%2FwRn5AHv0JrlbpSVZV6TBfRVXRv7OCH%2BwAiAOWa6OcI7A3u%2BGfw5HZcOfIXqPABtejY3Sp3CC3G%2BNayqDBAjl%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F8BEAQaDDA1OTAwMzU0Njg2NSIMLTdfkplVozb7tpl0KtcD50Aty19oj9GxoVj%2FdRGa8VK6nZat%2FRtY9RYy7tZu42JxxvCrYvD6mA5sIdWQm%2F4aaEI3PebI%2FKPEn8zN5eU2%2BTDye5iGQK0v68GC1YQOkGJwfBCxb9UN1DVsRz%2B5siiB5TyWRDrkvhwBVwTF6ur1jbXASHIy6SAv9T4duagMV6UFWyi7k4ETmiwkWDziJkIwg79GvHdZ8KAO1CpRs%2FUkViivOKEQldh8BuOCSxzs1Ye9%2BiC8vr%2F2HkJ9zyrzruw7HdvyOwChdXpycFmdOpxDXUTHwNmdkIwXFjPY57w6Z%2BRkRZ8dA9qL9usLkkrc6KY4YYMP3CdUlyp3ERGu%2BbZG%2F3UUFhWfhTilp6E0ZzI3PvWt9RDWscyD1ZVV8K%2F8K0uz8G0MLDXNLW7S%2FOjZatHE2wDDDNVvrIftrYoTTaV7niwczKxKpcEg1OO956xjguNnB0SKGHrHQHtOTianRIwcVArnfZBG36r2QTiy4CReOEKve5QL6dwH7bUlFq8wGQQvbzp1om9YffNbsFJ%2BZ4RNn9zcj8J5EP9zZCQtDoZp5VjwB9pb8oP1LvC0DnHF%2FUt3Hy5f0PRQBRNnxn00s3tPD3Scn5dw1Oao8xb8MpLpORcZp84bzylWMKr4%2F40GOqYBZrhi1tx9ZR1f979KoTtZBm7GbWrHecWIpPx7UHQNxf9Vvsbs7UyJBbM7215uyLHDf%2F8Oimjg1kz48DyHYCZ7EBrdUTPCi%2B4StJbihATD43InivlY13XaPq9%2Bo7qSS90OBA0h0QNxXsvtvs71IpZqQ3pHO%2Bw6BtxVST2KA64ZjWAoEkdFjxRiYGR87LloZ4EEbaAP0db1AMBsTVtjV5VsfRZy2xD2Gg%3D%3D&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Date=20211220T043901Z&X-Amz-SignedHeaders=host&X-Amz-Expires=300&X-Amz-Credential=ASIAQ3PHCVTY3REMP6OJ%2F20211220%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Signature=3f337000c9b0c8aea2182d98c2a3168ed10c20334cf0f75bd41137076a04b632&hash=8342954e4f6120f46b4203559575209af50594feb6941310e283c7494aca4b9b&host=68042c943591013ac2b2430a89b270f6af2c76d8dfd086a07176afe7c76c2c61&pii=S0926580521004775&tid=spdf-630e8590-e4b4-461c-a93f-5e4922839469&sid=32831ade430eb24f9658059673bb07227bbfgxrqa&type=client)
+  * Data Extracting and augmenting through COG Logs command-line, into an augmented command-line
+  * Meaning; i think, that we can examine logs of Command Object Graphs (COGs), which allow us to observe cause-and-effect chains, and generate an 'augmented' response(? can this really be considered a response) command-line
+  * With the knowledge gained from such perception; it could be possible for a similar NN agent, or hivemind of agents, to observe its environment, the objects within it, and the discrete chains of actions needed to interact with it.
+  * More reading is required.
+#### Development Solutions (Java)
+* [Java Command Patterns](https://www.youtube.com/watch?v=QUMEPrQzZzU)
