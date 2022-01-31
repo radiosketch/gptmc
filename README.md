@@ -1,7 +1,9 @@
 # PoC: GPT in Minecraft
 My goal with this project is to demonstrate the feasibility of incorporating GPT-3, or a GPT-Alternative into a Minecraft Mod. In this example, I plan to use GPT-J as an open source alternative with improved performance.
 
-# R&D, by rad1osketxh
+See PROTOBLOGPOSTS.md for the most updated info as research continues
+
+# Early R&D, by rad1osketxh
 I'm not sure how else to start planning what I want, so this section is dedicated to
 getting across how I want to start blogging, designing assets for eventually vlogging &
 producing content online.
@@ -9,6 +11,8 @@ producing content online.
 This section may also serve as an initial blog post, so **~Hello There!  ! ! Welcome to my Blog!!~**
 
 - **Abstract Structuring**:  
+  **How can GPT control the game?**
+    - I don't know lol  
   **Assuming it's possible to get GPT-3 to control the game at some point, What do we do?**
     - As GPT receives information, it should be able to interrupt and update mc.ai with new instructions. These instructions should be expected not to allow dangerous decisions, such as jumping off a cliff. An error checking / path-testing algorithm should be used to translate GPT instructions into safe moves by the agent. GPT may be able to be trained with sufficient data about the world that directly teaches the AI about consequences; *save the devs the hard work please, GPT*.
     - See the best of what [MineRL](https://minerl.io/diamond/) has to offer, and you might see why some mix between learning and hardcoding decision-making may be necessary; however, GPT has little history with MineRL, so a more sophisticated network may provide an edge.
@@ -41,7 +45,8 @@ See the resources section at the bottom
 5. Decoding GPT-J responses into in-game actions
 6. Optimization tactics for faster AI response time
 
-## Development
+## Development  
+Draft of what kind of structure may be necessary to achieve comm between NN <--> Game  
 ![WIP Component View](https://cdn.discordapp.com/attachments/562801886634311680/908777047835414679/gptmcDataFlow.png)
 
 #### Tasks TODO:
