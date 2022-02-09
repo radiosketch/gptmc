@@ -83,3 +83,7 @@ and may serve as a goalpost in the future.
 - [5/7/21 : : SPOTTER: Extending Symbolic Planning Operators through Targeted Reinforcement Learning](https://www.ifaamas.org/Proceedings/aamas2021/pdfs/p1118.pdf)
 - See more on [MiniGrid's GitHub page](https://github.com/maximecb/gym-minigrid#minimalistic-gridworld-environment-minigrid)
 ---
+
+TODO: Continue research on ai-generated structures [here](https://arxiv.org/pdf/2103.08737.pdf)
+
+---
