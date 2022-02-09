@@ -1,22 +1,63 @@
 
 ---
 ### 1/31/22 : : The search for validation (or invalidation) continues
-Further research shows that (to-date) LMs like GPT-J will be insufficient for task-planning agents,
-leading to the idea that initial concepts may only focus on chatting with players.
+Further research shows that (to-date) Language Models (LMs) like GPT-Codex
 
-See the following paper on the current state of action planning:  
+See the following paper on the current state of action planning, or the related video by Yannic Kilcher:  
 [1/18/22 : : Language Models as Zero-Shot Planners:
-Extracting Actionable Knowledge for Embodied Agents](https://arxiv.org/pdf/2201.07207.pdf)
+Extracting Actionable Knowledge for Embodied Agents](https://arxiv.org/pdf/2201.07207.pdf)  
+[2/8/22 : : Yannic Kilcher's interview with an author of this paper](https://www.youtube.com/watch?v=OUCwujwE7bA)
+
+LMs like GPT-3 or GPT-Codex were capable of generating plans for simple tasks ~60% correct on average, and rarely
+completely executable; this was measured by human evaluations of generated plans, and compared with plans made by humans,
+which were ~70% correct, and fully executable.
+
+Researchers are more confident that a tailored language model akin to GPT-Codex, which was made to generate
+computer code, would be best suited for generating a correctly-formatted list of planned actions.
+
+A model such as this requires a list of every allowable combination of objects & actions to be embedded within it.
+This 'bank' of actionable steps, once compiled and embedded into an LM, could feasibly be used by the LM to generate
+the steps required to complete a given task.
+
+> In VirtualHome, activities are expressed as programs. Each program consists of a
+sequence of textual action steps, where each step is written as: [action] {arg}(idx). Each
+action refers to one of the 42 atomic actions supported in VirtualHome, such as “walk” and “open”...  
+> 
+> pg. 4, paragraph 1
+
+An example program for the task "Relax on sofa"; the indices are omitted as (1) in this case.
+
+> [WALK] {living_room}(1)  
+  [WALK] {television}(1)  
+  [FIND] {television}(1)  
+  [SWITCHON] {television}(1)  
+  [FIND] {sofa}(1)  
+  [SIT] {sofa}(1)  
+  [TURNTO] {television}(1)  
+  [WATCH] {television}(1)  
+> 
+> pg. 4, paragraph 2
+
+Conclusions also mention that off-the-shelf LMs trained on generic English text aren't suitable for generating
+executable programs. Off-the-shelf models also tend to struggle when asked to output into a usable format,
+so another off-the-shelf LM, Sentence-RoBERTa, was used to translate the generated text into the proper format.
+(Pg. 9, Paragraph 3)
+
+In Minecraft, every possible interaction with an object is defined in its class-structure, so it may be 
+possible to auto-generate this list of possible interactions and save time for the developers.
+
 - Preceding research on simulating activities in a virtual environment:  
   [6/19/18 : : VirtualHome: Simulating Household Activities via Programs](https://arxiv.org/pdf/1806.07011.pdf)
 
+Since research has not proven to achieve a fully functional action-planning agent powered by LMs, I would
+much rather focus on what is indeed possible.  
 What is needed to implement a chatbot in minecraft?
-- Can minecraft mods call external APIs? YES
+- Can minecraft mods call external APIs? YES  
 - Can a chatbot be implemented in minecraft? YES  
   [4/6/21 : : Minecraft-AI-Chatbot : : CurseForge](https://www.curseforge.com/minecraft/mc-mods/ai-chatbot)  
-  [Chatter-Bot-API (last updated 5 years ago)](https://github.com/pierredavidbelanger/chatter-bot-api)
-- Can entities be interacted with in text chat?
-    - this has not been widely published by mod makers yet 0-o
+  [Chatter-Bot-API (last updated 5 years ago)](https://github.com/pierredavidbelanger/chatter-bot-api)  
+- Can entities be interacted with in text chat?  
+    - implementations have not been widely published by mod makers yet 0-o
 ---
 ### 2/7/22 : : Custom Environments with Stable Baselines 3  
 A reinforcement learning package like Stable Baselines could be suitable to begin training in a
