@@ -57,7 +57,8 @@ What is needed to implement a chatbot in minecraft?
   [4/6/21 : : Minecraft-AI-Chatbot : : CurseForge](https://www.curseforge.com/minecraft/mc-mods/ai-chatbot)  
   [Chatter-Bot-API (last updated 5 years ago)](https://github.com/pierredavidbelanger/chatter-bot-api)  
 - Can entities be interacted with in text chat?  
-    - implementations have not been widely published by mod makers yet 0-o
+    - Yes  
+      [11/18 : : How Players Speak to an Intelligent Game Character Using Natural Language Messages](http://todigra.org/index.php/todigra/article/view/88/139)
 ---
 ### 2/7/22 : : Custom Environments with Stable Baselines 3  
 A reinforcement learning package like Stable Baselines could be suitable to begin training in a
@@ -118,12 +119,15 @@ which is described as:
 > [RL-Baselines-Zoo](https://github.com/araffin/rl-baselines-zoo#minigrid-envs)  
 
 This environment could feasibly be modified to include even more of Minecraft's core features,
-and may serve as a goalpost in the future.
+and could serve as a goalpost in the future.
 #### Related Papers:
 - [11/4/21 : : A Consciousness-Inspired Planning Agent for Model-Based Reinforcement Learning](https://arxiv.org/pdf/2106.02097.pdf)
 - [5/7/21 : : SPOTTER: Extending Symbolic Planning Operators through Targeted Reinforcement Learning](https://www.ifaamas.org/Proceedings/aamas2021/pdfs/p1118.pdf)
 - See more on [MiniGrid's GitHub page](https://github.com/maximecb/gym-minigrid#minimalistic-gridworld-environment-minigrid)
 ---
+
+TODO: Continue research on current Minecraft-AI projects here: [7/29/19 : : Why Build an Assistant in Minecraft?](https://arxiv.org/pdf/1907.09273.pdf)
+- [9/13/21 : : Learning to Ground Visual Objects for Visual Dialog](https://arxiv.org/pdf/2109.06013.pdf)
 
 TODO: Continue research on ai-generated structures [here](https://arxiv.org/pdf/2103.08737.pdf)
 
