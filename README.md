@@ -12,7 +12,7 @@ This section may also serve as an initial blog post, so **~Hello There!  ! ! Wel
 
 - **Abstract Structuring**:  
   **How can GPT control the game?**
-    - I don't know lol; my early research strategy is to pose ideas and see what sticks. I expect that the majority of the ideas here will be invalidated later. 
+    - I don't know lol; my early research strategy is to pose ideas and see what sticks. **I expect that the majority of the ideas here will be invalidated later.**  
   **Assuming it's possible to get GPT-3 to control the game at some point, What do we do?**
     - As GPT receives information, it should be able to interrupt and update mc.ai with new instructions. These instructions should be expected not to allow dangerous decisions, such as jumping off a cliff. An error checking / path-testing algorithm should be used to translate GPT instructions into safe moves by the agent. GPT may be able to be trained with sufficient data about the world that directly teaches the AI about consequences; *save the devs the hard work please, GPT*.
     - See the best of what [MineRL](https://minerl.io/diamond/) has to offer, and you might see why some mix between learning and hardcoding decision-making may be necessary; however, GPT has little history with MineRL, so a more sophisticated network may provide an edge.
