@@ -1,7 +1,7 @@
 # PoC: GPT in Minecraft
 My goal with this project is to demonstrate the feasibility of incorporating GPT-3, or a GPT-Alternative into a Minecraft Mod. In this example, I plan to use GPT-J as an open source alternative with improved performance.
 
-See PROTOBLOGPOSTS.md for the most updated info as research continues
+See [PROTOBLOGPOSTS.md](https://github.com/radiosketch/gptmc/blob/1.16.5/PROTOBLOGPOSTS.md) for the most updated info as research continues
 
 # Early R&D, by rad1osketxh
 I'm not sure how else to start planning what I want, so this section is dedicated to
