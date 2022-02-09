@@ -1,16 +1,15 @@
 
 ---
-### 1/31/22 : : The search for validation (or invalidation) continues
-Further research shows that (to-date) Language Models (LMs) like GPT-Codex
+### 1/31/22 : : The search for validation (or invalidation) continues  
+
+LMs like GPT-3 or GPT-Codex are capable of generating plans for simple tasks ~60% correct on average, and rarely
+completely executable; this was measured by human evaluations of generated plans, and compared with plans made by humans,
+which were ~70% correct, and fully executable.
 
 See the following paper on the current state of action planning, or the related video by Yannic Kilcher:  
 [1/18/22 : : Language Models as Zero-Shot Planners:
 Extracting Actionable Knowledge for Embodied Agents](https://arxiv.org/pdf/2201.07207.pdf)  
 [2/8/22 : : Yannic Kilcher's interview with an author of this paper](https://www.youtube.com/watch?v=OUCwujwE7bA)
-
-LMs like GPT-3 or GPT-Codex were capable of generating plans for simple tasks ~60% correct on average, and rarely
-completely executable; this was measured by human evaluations of generated plans, and compared with plans made by humans,
-which were ~70% correct, and fully executable.
 
 Researchers are more confident that a tailored language model akin to GPT-Codex, which was made to generate
 computer code, would be best suited for generating a correctly-formatted list of planned actions.
