@@ -79,7 +79,7 @@ which is described as:
 This environment could feasibly be modified to include even more of Minecraft's core features,
 and may serve as a goalpost in the future.
 #### Related Papers:
-- [A Consciousness-Inspired Planning Agent for Model-Based Reinforcement Learning](https://arxiv.org/pdf/2106.02097.pdf)
-- [SPOTTER: Extending Symbolic Planning Operators through Targeted Reinforcement Learning](https://www.ifaamas.org/Proceedings/aamas2021/pdfs/p1118.pdf)
+- [11/4/21 : : A Consciousness-Inspired Planning Agent for Model-Based Reinforcement Learning](https://arxiv.org/pdf/2106.02097.pdf)
+- [5/7/21 : : SPOTTER: Extending Symbolic Planning Operators through Targeted Reinforcement Learning](https://www.ifaamas.org/Proceedings/aamas2021/pdfs/p1118.pdf)
 - See more on [MiniGrid's GitHub page](https://github.com/maximecb/gym-minigrid#minimalistic-gridworld-environment-minigrid)
 ---
