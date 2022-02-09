@@ -3,13 +3,6 @@ My goal with this project is to demonstrate the feasibility of incorporating GPT
 
 See [PROTOBLOGPOSTS.md](https://github.com/radiosketch/gptmc/blob/1.16.5/PROTOBLOGPOSTS.md) for the most updated info as research continues
 
-What do I think the structure of this model will be? It's hard to say; however, I think any solution will have to make
-use of multiple models for specific high-level tasks. In a way, the goal is to accurately replicate an actual brain, so
-the following rough diagram may provide clarity for the implementation challenges that lie ahead.
-  
-The scale of each respective model is not accurate; this overall layout is subject to change as research continues.
-![BigBrainDiagram](https://cdn.discordapp.com/attachments/513555424247676929/940773937770536980/BigBrain.png)
-
 # Early R&D, by rad1osketxh
 I'm not sure how else to start planning what I want, so this section is dedicated to
 getting across how I want to start blogging, designing assets for eventually vlogging &
