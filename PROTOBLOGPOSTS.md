@@ -1,7 +1,7 @@
 
 ---
 ### 1/31/22 : : The search for validation (or invalidation) continues
-Further research shows that LMs like GPT-J will be insufficient for task-planning agents,
+Further research shows that (to-date) LMs like GPT-J will be insufficient for task-planning agents,
 leading to the idea that initial concepts may only focus on chatting with players.
 
 See the following paper on the current state of action planning:  
