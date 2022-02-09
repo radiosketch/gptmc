@@ -130,5 +130,5 @@ TODO: Continue research on current Minecraft-AI projects here: [7/29/19 : : Why 
 - [9/13/21 : : Learning to Ground Visual Objects for Visual Dialog](https://arxiv.org/pdf/2109.06013.pdf)
 - [7/19/19 : : CraftAssist: A Framework for Dialogue-enabled Interactive Agents : : Facebook Research](https://arxiv.org/pdf/1907.08584.pdf)  
 - [6/4/21 : : Growing 3D Artefacts and Functional Machines with Neural Cellular Automata](https://arxiv.org/pdf/2103.08737.pdf)
-
+- [CraftAssist Instruction Parsing: Semantic Parsing for a Voxel-World Assistant](https://aclanthology.org/2020.acl-main.427.pdf)
 ---
