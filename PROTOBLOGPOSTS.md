@@ -128,7 +128,7 @@ and could serve as a goalpost in the future.
 
 TODO: Continue research on current Minecraft-AI projects here: [7/29/19 : : Why Build an Assistant in Minecraft?](https://arxiv.org/pdf/1907.09273.pdf)
 - [9/13/21 : : Learning to Ground Visual Objects for Visual Dialog](https://arxiv.org/pdf/2109.06013.pdf)
-
-TODO: Continue research on ai-generated structures [here](https://arxiv.org/pdf/2103.08737.pdf)
+- [7/19/19 : : CraftAssist: A Framework for Dialogue-enabled Interactive Agents : : Facebook Research](https://arxiv.org/pdf/1907.08584.pdf)  
+- [6/4/21 : : Growing 3D Artefacts and Functional Machines with Neural Cellular Automata](https://arxiv.org/pdf/2103.08737.pdf)
 
 ---
