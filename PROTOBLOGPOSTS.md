@@ -56,8 +56,9 @@ What is needed to implement a chatbot in minecraft?
   [4/6/21 : : Minecraft-AI-Chatbot : : CurseForge](https://www.curseforge.com/minecraft/mc-mods/ai-chatbot)  
   [Chatter-Bot-API (last updated 5 years ago)](https://github.com/pierredavidbelanger/chatter-bot-api)  
 - Can entities be interacted with in text chat?  
-    - Yes  
-      [11/18 : : How Players Speak to an Intelligent Game Character Using Natural Language Messages](http://todigra.org/index.php/todigra/article/view/88/139)
+    - YES  
+      [11/18 : : How Players Speak to an Intelligent Game Character Using Natural Language Messages](http://todigra.org/index.php/todigra/article/view/88/139)  
+      [7/19/19 : : CraftAssist: A Framework for Dialogue-enabled Interactive Agents : : Facebook Research](https://arxiv.org/pdf/1907.08584.pdf)
 ---
 ### 2/7/22 : : Custom Environments with Stable Baselines 3  
 A reinforcement learning package like Stable Baselines could be suitable to begin training in a
