@@ -28,10 +28,10 @@ on OpenAI Baselines : : [Stable Baselines Docs](https://stable-baselines.readthe
 - Part 3 of implementing a custom RL environment, by [sentdex](https://youtu.be/uKnjGn8fF70)  
   - Check back later for Part 4 where optimizations will be made to punishment strategies.
   
-  
 I should probably try to implement a custom environment in simpler open-source games as a learning
 exercise. Moving up to a 2D sandbox game would be suitable for preparing to implement a training
 environment in Minecraft.
+
 ---
 ### 2/8/22 : : Exploring RL Environments similar to Minecraft  
 #### and a component analysis of Minecraft's features
