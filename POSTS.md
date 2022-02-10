@@ -1,6 +1,6 @@
 
 ---
-### 2/10/22 : : Beginning Research in Earnest With the Paper by Facebook AI: *[Why Build an Assistant in Minecraft?](https://arxiv.org/pdf/1907.09273.pdf)*
+### 2/10/22 : : Beginning Research in Earnest With the Paper from Facebook AI: *[Why Build an Assistant in Minecraft?](https://arxiv.org/pdf/1907.09273.pdf)*
 
 #### Part 1: Woah, this has a lot to do with a lot of things I'm interested in. It's time to really dig in, but how can I even digest this much info?
 &emsp;I could waffle back and forth about the way I present my ideas _endlessly_, but only because I need somewhere to resume my spontaneous episodes of productivity—without losing any valuable piece of the puzzle I am attempting to complete. I hope that this self-propelled, self-critical research strategy may serve as a better mnemonic than attending years of college courses to achieve the same goal. In essence, I am engineering my very own crash course in communicative, learning, game-playing AI.  
