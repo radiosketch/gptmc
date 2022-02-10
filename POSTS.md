@@ -30,7 +30,7 @@ Questions I want answered eventually:
 &emsp;Part 2 was _supposed_ to get through a lot more reading material than it did, but the categories in place should be great for organizing my notes about the paper as I continue.  
 
 Thanks for reading, and hopefully following along,  
-[rad1osketxh](https://www.twitch.tv/rad1osketxh)
+[rad1osketxh](https://twitter.com/101prairiedogs)
 
 ---
 
