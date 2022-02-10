@@ -27,7 +27,7 @@ Questions I want answered eventually:
 
 #### Part 3: Today's Conclusion
 &emsp;It doesn't feel like much; however, I'm happy with what I have because it does a better job of explaining my strategy going forward. I've been in need of a true strategy for a while now, so I chose to take the time to reflect and polish my blogging skills in Part 1.  
-&emsp;Part 2 was _supposed_ to get through a lot more reading material than it did, but the categories in place should be a great for organizing my notes about the paper as I continue.  
+&emsp;Part 2 was _supposed_ to get through a lot more reading material than it did, but the categories in place should be great for organizing my notes about the paper as I continue.  
 
 Thanks for reading, and hopefully following along,  
 rad1osketxh
