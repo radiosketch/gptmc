@@ -38,10 +38,10 @@ drafts/
 
 
 # Blog Branch Ignores
-gradle/
-src/
-build.gradle
-gradle.properties
-gradlew
-gradlew.bat
-settings.gradle
+drafts/gradle/
+drafts/src/
+drafts/build.gradle
+drafts/gradle.properties
+drafts/gradlew
+drafts/gradlew.bat
+drafts/settings.gradle
