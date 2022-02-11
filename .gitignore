@@ -36,12 +36,3 @@ run/
 # my stuff
 drafts/
 
-
-# Blog Branch Ignores
-drafts/gradle/
-drafts/src/
-drafts/build.gradle
-drafts/gradle.properties
-drafts/gradlew
-drafts/gradlew.bat
-drafts/settings.gradle
