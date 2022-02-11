@@ -1,1 +1,4 @@
-#### This project is still in researching stages, see [POSTS.md](https://github.com/radiosketch/gptmc/blob/1.16.5/POSTS.md) to watch me blog about what I'm learning.
+#### This project is still in researching stages, but feel free to follow the progress on [my blog](https://radiosketch.github.io/gptmc/POSTS.html), or follow me on my social media:
+- [@101prairiedogs](https://twitter.com/101prairiedogs)
+- [rad1osketxh.ttv](https://www.twitch.tv/rad1osketxh)
+TODO: Make a nice landing page :)
