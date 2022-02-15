@@ -27,18 +27,20 @@ url: "https://radiosketch.github.io" # the base hostname & protocol for your sit
 twitter_username: 101prairiedogs
 github_username:  radiosketch
 
-# Custom Settings
+# Fields minima uses, but are not defaulted with the jekyll new command
+# Author is the default for posts, the Atom feed, and is used in the footer
+author: rad1osketxh
+youtube_username:
+
+# New fields not defaulted by jekyll-new with the minima theme
+# copyright: RadioSketch LLC
 twitch_username: rad1osketxh
 
 # Build settings
 # Using regular theme instead
 # theme: minima
 plugins:
-  - jekyll-relative-links
   - jekyll-feed
-relative-links:
-  enabled: true
-  collections: true
 
 # Exclude from processing.
 # The following items will not be processed, by default.
