@@ -22,7 +22,7 @@ title: gpt-mc
 email: officialradiosketch@gmail.com
 description: >- # this means to ignore newlines until "baseurl:"
   Blogging my research process with the goal of giving artificial intelligence to Piglins, Villagers, Pillagers, and Illagers.
-baseurl: "/gptmc" # the subpath of your site, e.g. /blog
+baseurl: "/gptmc/index" # the subpath of your site, e.g. /blog
 url: "https://radiosketch.github.io" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: 101prairiedogs
 github_username:  radiosketch
