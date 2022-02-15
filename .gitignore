@@ -33,6 +33,6 @@ bin/
 run/
 
 
-# my stuff
-drafts/
+# jekyll
+_site/
 
