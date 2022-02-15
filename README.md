@@ -1,1 +1,1 @@
-This is the repo branch for my blog site
+This is the branch for my [blog site](https://radiosketch.github.io/gptmc)
