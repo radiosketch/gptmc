@@ -28,7 +28,7 @@ twitter_username: 101prairiedogs
 github_username:  radiosketch
 
 # Build settings
-theme: minima
+theme: jekyll-theme-midnight
 plugins:
   - jekyll-relative-links
   - jekyll-feed
