@@ -27,8 +27,12 @@ url: "https://radiosketch.github.io" # the base hostname & protocol for your sit
 twitter_username: 101prairiedogs
 github_username:  radiosketch
 
+# Custom Settings
+twitch_username: rad1osketxh
+
 # Build settings
-theme: minima
+# Using regular theme instead
+# theme: minima
 plugins:
   - jekyll-relative-links
   - jekyll-feed

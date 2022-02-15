@@ -1,3 +1,10 @@
+---
+layout: post
+title: Beginning Research
+date: 2022-02-10 12:00:00 -0400
+categories: research
+---
+
 ### Reading the Paper from Facebook AI: *[Why Build an Assistant in Minecraft?](https://arxiv.org/pdf/1907.09273.pdf)*
 
 #### Woah, this has a lot to do with a lot of things I'm interested in. It's time to really dig in, but how can I even digest this much info?
