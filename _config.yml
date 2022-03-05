@@ -30,10 +30,11 @@ github_username:  radiosketch
 # Fields minima uses, but are not defaulted with the jekyll new command
 # Author is the default for posts, the Atom feed, and is used in the footer
 author: rad1osketxh
+show_excerpts: True
 
 # New fields not defaulted by jekyll-new with the minima theme
 # copyright: RadioSketch LLC
-twitch_username: rad1osketxh
+twitch-username: rad1osketxh
 # title-logo is a new field that, when used, displays a logo
 # instead of custom text. Ideally, image is 50px high and takes up
 # minimal horizontal space. Tested with a new root "images" folder e.g.:
