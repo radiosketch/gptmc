@@ -32,6 +32,8 @@ bin/
 
 run/
 
-
 # jekyll
 /_site/
+
+# developer tools
+serve.bat
