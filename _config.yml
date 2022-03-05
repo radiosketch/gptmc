@@ -34,12 +34,12 @@ show_excerpts: True
 
 # New fields not defaulted by jekyll-new with the minima theme
 # copyright: RadioSketch LLC
-twitch-username: rad1osketxh
+twitch_username: rad1osketxh
 # title-logo is a new field that, when used, displays a logo
 # instead of custom text. Ideally, image is 50px high and takes up
 # minimal horizontal space. Tested with a new root "images" folder e.g.:
 # title-logo: /images/my-logo.png
-title-logo: /images/title-logo.png
+title_logo: /images/title-logo.png
 
 # Build settings
 # Using regular theme instead
